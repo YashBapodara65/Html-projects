@@ -1,0 +1,1361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 800px;
+    background-image: url('./image/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .subheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .subheader .logo{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .subheader .logo h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+header .subheader nav{
+    width: 45%;
+    height: 100%;
+}
+
+header .subheader nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .subheader nav ul li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .subheader nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+header .subheader nav ul li a:hover{
+    color: orange;
+}
+
+header .subheader .others{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .subheader .others i{
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+}
+
+header .subheader .others i:hover{
+    color: orange;
+}
+
+header .subheader .others button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header .subheader .others button:hover{
+    background-color: rgb(190, 124, 1);
+    border: 2px solid rgb(190, 124, 1);
+}
+
+header .headdata{
+    width: 40%;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .headdata h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header .headdata p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+header .headdata button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header .headdata button:hover{
+    background-color: rgb(214, 139, 0);
+    border: 2px solid rgb(214, 139, 0);
+}
+
+.s1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.s1 .s1d1, .s1 .s1d2{
+    width: 35%;
+    height: 200px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s1 .s1d1 .s1d1d1, .s1 .s1d2 .s1d2d1{
+    width: 30%;
+    height: 85%;
+}
+
+.s1 .s1d1 .s1d1d1 img, .s1 .s1d2 .s1d2d1 img{
+    width: 100%;
+    height: 100%;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+
+.s1 .s1d1 .s1d1d2, .s1 .s1d2 .s1d2d2{
+    width: 55%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 4%;
+}
+
+.s1 .s1d1 .s1d1d2 p, .s1 .s1d2 .s1d2d2 p{
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d1 .s1d1d2 h1, .s1 .s1d2 .s1d2d2 h1{
+    font-size: 27px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s1 .s1d1 .s1d1d2 button, .s1 .s1d2 .s1d2d2 button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s1 .s1d1 .s1d1d2 button:hover, .s1 .s1d2 .s1d2d2 button:hover{
+    border: 2px solid rgb(222, 144, 0);
+    background-color: rgb(222, 144, 0);
+}
+
+.s1 .s1d1 .s1d1d2 button i, .s1 .s1d2 .s1d2d2 button i{
+    font-size: 17px;
+    color: white;
+}
+
+.s2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.s2 h1{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s3{
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s3 .s3d1, .s3 .s3d2, .s3 .s3d3, .s3 .s3d4, .s3 .s3d5, .s3 .s3d6, .s3 .s3d7, .s3 .s3d8, .s3 .s3d9{
+    width: 26%;
+    height: 470px;
+    background-color: rgb(25, 24, 29);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.s3 .s3d1 .s3d1d1, .s3 .s3d2 .s3d2d1, .s3 .s3d3 .s3d3d1, .s3 .s3d4 .s3d4d1, .s3 .s3d5 .s3d5d1, .s3 .s3d6 .s3d6d1, .s3 .s3d7 .s3d7d1, .s3 .s3d8 .s3d8d1, .s3 .s3d9 .s3d9d1{
+    width: 100%;
+    height: 240px;
+    border-radius: 20px 20px 0px 50px;
+    border: 2px solid rgb(181, 177, 177);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3 .s3d1 .s3d1d1 img, .s3 .s3d2 .s3d2d1 img, .s3 .s3d3 .s3d3d1 img, .s3 .s3d4 .s3d4d1 img, .s3 .s3d5 .s3d5d1 img, .s3 .s3d6 .s3d6d1 img, .s3 .s3d7 .s3d7d1 img, .s3 .s3d8 .s3d8d1 img, .s3 .s3d9 .s3d9d1 img{
+    width: 80%;
+    height: 80%;
+    transition: 0.3s;
+}
+
+.s3 .s3d1:hover .s3d1d1 img, .s3 .s3d2:hover .s3d2d1 img, .s3 .s3d3:hover .s3d3d1 img, .s3 .s3d4:hover .s3d4d1 img, .s3 .s3d5:hover .s3d5d1 img, .s3 .s3d6:hover .s3d6d1 img, .s3 .s3d7:hover .s3d7d1 img, .s3 .s3d8:hover .s3d8d1 img, .s3 .s3d9:hover .s3d9d1 img{
+    transform: scale(1.1);
+}
+
+.s3 .s3d1 .s3d1d2, .s3 .s3d2 .s3d2d2, .s3 .s3d3 .s3d3d2, .s3 .s3d4 .s3d4d2, .s3 .s3d5 .s3d5d2, .s3 .s3d6 .s3d6d2, .s3 .s3d7 .s3d7d2, .s3 .s3d8 .s3d8d2, .s3 .s3d9 .s3d9d2{
+    width: 80%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.s3 .s3d1 .s3d1d2 h1, .s3 .s3d2 .s3d2d2 h1, .s3 .s3d3 .s3d3d2 h1, .s3 .s3d4 .s3d4d2 h1, .s3 .s3d5 .s3d5d2 h1, .s3 .s3d6 .s3d6d2 h1, .s3 .s3d7 .s3d7d2 h1, .s3 .s3d8 .s3d8d2 h1, .s3 .s3d9 .s3d9d2 h1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.s3 .s3d1 .s3d1d2 p, .s3 .s3d2 .s3d2d2 p, .s3 .s3d3 .s3d3d2 p, .s3 .s3d4 .s3d4d2 p, .s3 .s3d5 .s3d5d2 p, .s3 .s3d6 .s3d6d2 p, .s3 .s3d7 .s3d7d2 p, .s3 .s3d8 .s3d8d2 p, .s3 .s3d9 .s3d9d2 p{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.s3 .s3d1 .s3d1d2 .val1, .s3 .s3d2 .s3d2d2 .val1, .s3 .s3d3 .s3d3d2 .val1, .s3 .s3d4 .s3d4d2 .val1, .s3 .s3d5 .s3d5d2 .val1, .s3 .s3d6 .s3d6d2 .val1, .s3 .s3d7 .s3d7d2 .val1, .s3 .s3d8 .s3d8d2 .val1, .s3 .s3d9 .s3d9d2 .val1{
+    color: white;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s3 .s3d1 .s3d1d2 .valicon, .s3 .s3d2 .s3d2d2 .valicon, .s3 .s3d3 .s3d3d2 .valicon, .s3 .s3d4 .s3d4d2 .valicon, .s3 .s3d5 .s3d5d2 .valicon, .s3 .s3d6 .s3d6d2 .valicon, .s3 .s3d7 .s3d7d2 .valicon, .s3 .s3d8 .s3d8d2 .valicon, .s3 .s3d9 .s3d9d2 .valicon{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s3 .s3d1 .s3d1d2 .val2, .s3 .s3d2 .s3d2d2 .val2, .s3 .s3d3 .s3d3d2 .val2, .s3 .s3d4 .s3d4d2 .val2, .s3 .s3d5 .s3d5d2 .val2, .s3 .s3d6 .s3d6d2 .val2, .s3 .s3d7 .s3d7d2 .val2, .s3 .s3d8 .s3d8d2 .val2, .s3 .s3d9 .s3d9d2 .val2{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%; 
+}
+
+.s3 .s3d1 .s3d1d2 .val2 i, .s3 .s3d2 .s3d2d2 .val2 i, .s3 .s3d3 .s3d3d2 .val2 i, .s3 .s3d4 .s3d4d2 .val2 i, .s3 .s3d5 .s3d5d2 .val2 i, .s3 .s3d6 .s3d6d2 .val2 i, .s3 .s3d7 .s3d7d2 .val2 i, .s3 .s3d8 .s3d8d2 .val2 i, .s3 .s3d9 .s3d9d2 .val2 i{
+    font-size: 18px;    
+}
+
+.s3 .btn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3 .btn button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    font-size: 27px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s3 .btn button:hover{
+    border: 2px solid rgb(221, 145, 3);
+    background-color: rgb(221, 145, 3);
+}
+
+.s4{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(25, 24, 29);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.s4 .s4d1{
+    width: 35%;
+    height: 80%;
+}
+
+.s4 .s4d1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.s4 .s4d2{
+    width: 50%;
+    height: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.s4 .s4d2 h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.s4 .s4d2 p{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.s4 .s4d2 button{
+    width: 220px;
+    height: 50px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s4 .s4d2 button:hover{
+    border: 2px solid rgb(206, 134, 2);
+    background-color: rgb(206, 134, 2);
+}
+
+.s5{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.s5 h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s6{
+    width: 100%;
+    height: 500px;
+}
+
+.s6 form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s6 form input, select{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1%;
+    width: 60%;
+    height: 50px;
+}
+
+.s6 form button{
+    width: 200px;
+    height: 45px;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 30px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s6 form button:hover{
+    background-color: rgb(213, 139, 1);
+    border: 2px solid rgb(213, 139, 1);
+}
+
+.s7{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.s7 h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s8{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.s8 .s8d1, .s8d2{
+    width: 40%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.s8 .s8d1 .s8d1d1, .s8d2 .s8d2d1{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(25, 24, 29);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.s8 .s8d1 .s8d1d1 .txt1, .txt2{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.s8 .s8d2 .s8d2d1 .txt1, .txt2{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.s8 .s8d1 .s8d1d1 .txt1 p, .s8d2 .s8d2d1 .txt1 p{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 229, 229);
+}
+
+.s8 .s8d1 .s8d1d1 .txt2 h1, .s8d2 .s8d2d1 .txt2 h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.s8 .s8d1 .s8d1d1 .txt2 h3, .s8d2 .s8d2d1 .txt2 h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(234, 233, 233);
+}
+
+.s8 .s8d1 .s8d1d2, .s8d2 .s8d2d2{
+    width: 90%;
+    height: 30%;
+}
+
+.s8 .s8d1 .s8d1d2 img, .s8d2 .s8d2d2 img{
+    width: 17%;
+    height: 100%;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(25, 24, 29);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .f1{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 1%;
+}
+
+footer .f1 .box1{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer .f1 .box1 .txt1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .f1 .box1 .txt1 h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer .f1 .box1 .txt2{
+    width: 90%;
+    height: 60%;
+}
+
+footer .f1 .box1 .txt2 p{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+footer .f1 .box1 .txt2 p a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+footer .f1 .box1 .txt2 p a:hover{
+    color: orange;
+}
+
+footer .f1 .box2{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer .f1 .box2 .txt1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .f1 .box2 .txt1 h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer .f1 .box2 .txt2{
+    width: 85%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .f1 .box2 .txt2 p{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+footer .f1 .box2 .txt3{
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .f1 .box2 .txt3 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+footer .f1 .box2 .txt3 a:hover{
+    color: orange;
+}
+
+footer .f1 .box3{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer .f1 .box3 .txt1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .f1 .box3 .txt1 h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer .f1 .box3 .txt2{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .f1 .box3 .txt2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .f2{
+    height: 100px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .f2 h1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer .f2 h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+@media(max-width:980px){
+    header .subheader .logo h1{
+        font-size: 35px;
+    }
+
+    header .subheader nav ul li{
+        font-size: 16px;
+    }
+
+    header .headdata{
+        width: 60%;
+        height: 300px;
+    }
+
+    header .headdata h1{
+        font-size: 38px;
+    }
+
+    header .headdata p{
+        font-size: 18px;
+    }
+
+    .s1 .s1d1, .s1 .s1d2{
+        width: 35%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .s1 .s1d1 .s1d1d1, .s1 .s1d2 .s1d2d1{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .s1 .s1d1 .s1d1d2, .s1 .s1d2 .s1d2d2{
+        width: 55%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .s1 .s1d1 .s1d1d2 p, .s1 .s1d2 .s1d2d2 p{
+        font-size: 16px;
+    }
+    
+    .s1 .s1d1 .s1d1d2 h1, .s1 .s1d2 .s1d2d2 h1{
+        font-size: 24px;
+    }
+
+    .s3{
+        width: 100%;
+        height: 2600px;
+    }
+
+    .s3 .s3d1, .s3 .s3d2, .s3 .s3d3, .s3 .s3d4, .s3 .s3d5, .s3 .s3d6, .s3 .s3d7, .s3 .s3d8, .s3 .s3d9{
+        width: 36%;
+        height: 470px;
+    }
+
+    .s4{
+        width: 100%;
+        height: 600px;
+    }
+    
+    .s4 .s4d1{
+        width: 35%;
+        height: 80%;
+    }
+
+    .s4 .s4d2{
+        width: 50%;
+        height: 55%;
+    }
+
+    .s4 .s4d2 h1{
+        font-size: 37px;
+    }
+    
+    .s4 .s4d2 p{
+        font-size: 17px;
+    }
+    
+    .s4 .s4d2 button{
+        width: 180px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .s5 h1{
+        font-size: 40px;
+    }
+
+    .s6 form button{
+        width: 180px;
+        height: 42px;
+        font-size: 20px;
+    }
+
+    .s7 h1{
+        font-size: 37px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .s8{
+        width: 100%;
+        height: 500px;
+    }
+
+    .s8 .s8d1, .s8d2{
+        width: 40%;
+        height: 470px;
+    }
+    
+    .s8 .s8d1 .s8d1d1, .s8d2 .s8d2d1{
+        width: 100%;
+        height: 270px;
+    }
+    
+    .s8 .s8d1 .s8d1d1 .txt1, .s8 .s8d2 .s8d2d1 .txt1{
+        width: 85%;
+        height: 60%;
+    }
+
+    .s8 .s8d1 .s8d1d1 .txt2, .s8d2 .s8d2d1 .txt2{
+        width: 85%;
+        height: 30%;
+    }
+
+    .s8 .s8d1 .s8d1d1 .txt1 p, .s8d2 .s8d2d1 .txt1 p{
+        font-size: 16px;
+    }
+    
+    .s8 .s8d1 .s8d1d1 .txt2 h1, .s8d2 .s8d2d1 .txt2 h1{
+        font-size: 19px;
+    }
+    
+    .s8 .s8d1 .s8d1d1 .txt2 h3, .s8d2 .s8d2d1 .txt2 h3{
+        font-size: 17px;
+    }
+
+    .s8 .s8d1 .s8d1d2 img, .s8d2 .s8d2d2 img{
+        width: 120px;
+        height: 120px;
+    }
+
+    footer .f1 .box1 .txt1 h1{
+        font-size: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    footer .f1 .box1 .txt2 p{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    footer .f1 .box2 .txt1 h1{
+        font-size: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    footer .f1 .box2 .txt2 p{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    footer .f1 .box3 .txt1 h1{
+        font-size: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    footer .f1 .box3 .txt2 a{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    footer .f2 h1{
+        font-size: 19px;
+    }
+
+    footer .f2 h2{
+        font-size: 17px;
+    }
+
+}
+
+@media(max-width:720px){
+
+    header .subheader .others i{
+        font-size: 16px;
+    }
+    
+    header .subheader .others button{
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }
+    
+    header .subheader .logo h1{
+        font-size: 30px;
+    }
+
+    header .subheader nav ul li{
+        font-size: 12px;
+    }
+
+    header .headdata{
+        width: 60%;
+        height: 300px;
+    }
+
+    header .headdata h1{
+        font-size: 33px;
+    }
+
+    header .headdata p{
+        font-size: 16px;
+    }
+
+    header .headdata button{
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .s1{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .s1 .s1d1, .s1 .s1d2{
+        width: 70%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .s1 .s1d1 .s1d1d1, .s1 .s1d2 .s1d2d1{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .s1 .s1d1 .s1d1d2, .s1 .s1d2 .s1d2d2{
+        width: 55%;
+        height: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .s1 .s1d1 .s1d1d2 p, .s1 .s1d2 .s1d2d2 p{
+        font-size: 16px;
+    }
+    
+    .s1 .s1d1 .s1d1d2 h1, .s1 .s1d2 .s1d2d2 h1{
+        font-size: 24px;
+    }
+
+    .s1 .s1d1 .s1d1d2 button, .s1 .s1d2 .s1d2d2 button{
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .s3{
+        width: 100%;
+        height: 2800px;
+    }
+
+    .s3 .s3d1, .s3 .s3d2, .s3 .s3d3, .s3 .s3d4, .s3 .s3d5, .s3 .s3d6, .s3 .s3d7, .s3 .s3d8, .s3 .s3d9{
+        width: 36%;
+        height: 500px;
+    }
+
+    .s3 .s3d1 .s3d1d2, .s3 .s3d2 .s3d2d2, .s3 .s3d3 .s3d3d2, .s3 .s3d4 .s3d4d2, .s3 .s3d5 .s3d5d2, .s3 .s3d6 .s3d6d2, .s3 .s3d7 .s3d7d2, .s3 .s3d8 .s3d8d2, .s3 .s3d9 .s3d9d2{
+        width: 80%;
+        height: 210px;
+    }
+
+    .s3 .s3d1 .s3d1d2 h1, .s3 .s3d2 .s3d2d2 h1, .s3 .s3d3 .s3d3d2 h1, .s3 .s3d4 .s3d4d2 h1, .s3 .s3d5 .s3d5d2 h1, .s3 .s3d6 .s3d6d2 h1, .s3 .s3d7 .s3d7d2 h1, .s3 .s3d8 .s3d8d2 h1, .s3 .s3d9 .s3d9d2 h1{
+        font-size: 22px;
+    }
+    
+    .s3 .s3d1 .s3d1d2 p, .s3 .s3d2 .s3d2d2 p, .s3 .s3d3 .s3d3d2 p, .s3 .s3d4 .s3d4d2 p, .s3 .s3d5 .s3d5d2 p, .s3 .s3d6 .s3d6d2 p, .s3 .s3d7 .s3d7d2 p, .s3 .s3d8 .s3d8d2 p, .s3 .s3d9 .s3d9d2 p{
+        font-size: 15px;
+    }
+
+    .s3 .btn button{
+        width: 180px;
+        height: 45px;
+        font-size: 23px;
+    }
+
+    .s4{
+        width: 100%;
+        height: 1150px;
+        flex-wrap: wrap;
+    }
+    
+    .s4 .s4d1{
+        width: 60%;
+        height: 55%;
+    }
+
+    .s4 .s4d2{
+        width: 80%;
+        height: 30%;
+    }
+
+    .s4 .s4d2 h1{
+        font-size: 35px;
+    }
+    
+    .s4 .s4d2 p{
+        font-size: 16px;
+    }
+    
+    .s4 .s4d2 button{
+        width: 180px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .s5 h1{
+        font-size: 40px;
+    }
+
+    .s6 form input, select{
+        font-size: 19px;
+        width: 70%;
+        height: 50px;
+    }
+
+    .s6 form button{
+        width: 160px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    footer{
+        width: 100%;
+        height: 850px;
+        background-color: rgb(25, 24, 29);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .f1{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 1%;
+    }
+
+    footer .f1 .box1, footer .f1 .box2{
+        height: 200px;
+        width: 90%;
+    }
+
+    footer .f1 .box3{
+        height: 150px;
+        width: 90%;
+    }
+
+    footer .f1 .box2 .txt3{
+        width: 40%;
+    }
+}
+
+@media(max-width:560px){
+    header .subheader .others i{
+        font-size: 10px;
+    }
+    
+    header .subheader .others button{
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    header .subheader .logo h1{
+        font-size: 24px;
+    }
+
+    header .subheader nav{
+        width: 55%;
+    }
+
+    header .subheader nav ul li{
+        font-size: 7px;
+    }
+
+    header .headdata{
+        width: 85%;
+        height: 300px;
+    }
+
+    header .headdata h1{
+        font-size: 30px;
+    }
+
+    header .headdata p{
+        font-size: 14px;
+    }
+
+    header .headdata button{
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .s1{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .s1 .s1d1, .s1 .s1d2{
+        width: 85%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .s1 .s1d1 .s1d1d1, .s1 .s1d2 .s1d2d1{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .s1 .s1d1 .s1d1d2, .s1 .s1d2 .s1d2d2{
+        width: 55%;
+        height: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .s1 .s1d1 .s1d1d2 p, .s1 .s1d2 .s1d2d2 p{
+        font-size: 14px;
+    }
+    
+    .s1 .s1d1 .s1d1d2 h1, .s1 .s1d2 .s1d2d2 h1{
+        font-size: 21px;
+    }
+
+    .s1 .s1d1 .s1d1d2 button, .s1 .s1d2 .s1d2d2 button{
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .s2 h1{
+        font-size: 35px;
+    }
+
+    .s3{
+        width: 100%;
+        height: 4100px;
+    }
+
+    .s3 .s3d1, .s3 .s3d2, .s3 .s3d3, .s3 .s3d4, .s3 .s3d5, .s3 .s3d6, .s3 .s3d7, .s3 .s3d8, .s3 .s3d9{
+        width: 80%;
+        height: 400px;
+    }
+
+    .s3 .s3d1 .s3d1d2, .s3 .s3d2 .s3d2d2, .s3 .s3d3 .s3d3d2, .s3 .s3d4 .s3d4d2, .s3 .s3d5 .s3d5d2, .s3 .s3d6 .s3d6d2, .s3 .s3d7 .s3d7d2, .s3 .s3d8 .s3d8d2, .s3 .s3d9 .s3d9d2{
+        width: 80%;
+        height: 140px;
+    }
+
+    .s3 .s3d1 .s3d1d2 h1, .s3 .s3d2 .s3d2d2 h1, .s3 .s3d3 .s3d3d2 h1, .s3 .s3d4 .s3d4d2 h1, .s3 .s3d5 .s3d5d2 h1, .s3 .s3d6 .s3d6d2 h1, .s3 .s3d7 .s3d7d2 h1, .s3 .s3d8 .s3d8d2 h1, .s3 .s3d9 .s3d9d2 h1{
+        font-size: 20px;
+    }
+    
+    .s3 .s3d1 .s3d1d2 p, .s3 .s3d2 .s3d2d2 p, .s3 .s3d3 .s3d3d2 p, .s3 .s3d4 .s3d4d2 p, .s3 .s3d5 .s3d5d2 p, .s3 .s3d6 .s3d6d2 p, .s3 .s3d7 .s3d7d2 p, .s3 .s3d8 .s3d8d2 p, .s3 .s3d9 .s3d9d2 p{
+        font-size: 13px;
+    }
+
+    .s3 .btn{
+        height: 50px;
+    }
+
+    .s3 .btn button{
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .s4 .s4d2 h1{
+        font-size: 32px;
+    }
+    
+    .s4 .s4d2 p{
+        font-size: 15px;
+    }
+    
+    .s4 .s4d2 button{
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .s5{
+        margin-top: 10%;
+    }
+
+    .s5 h1{
+        font-size: 35px;
+    }
+
+    .s6 form input, select{
+        font-size: 19px;
+        width: 75%;
+        height: 50px;
+    }
+
+    .s6 form button{
+        width: 160px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    .s7 h1{
+        font-size: 19px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .s8{
+        width: 100%;
+        height: 900px;
+        flex-wrap: wrap;
+    }
+
+    .s8 .s8d1, .s8d2{
+        width: 80%;
+        height: 430px;
+    }
+    
+    .s8 .s8d1 .s8d1d1, .s8d2 .s8d2d1{
+        width: 100%;
+        height: 230px;
+    }
+    
+    .s8 .s8d1 .s8d1d1 .txt1, .s8 .s8d2 .s8d2d1 .txt1{
+        width: 85%;
+        height: 60%;
+    }
+
+    .s8 .s8d1 .s8d1d1 .txt2, .s8d2 .s8d2d1 .txt2{
+        width: 85%;
+        height: 30%;
+    }
+
+    .s8 .s8d1 .s8d1d1 .txt1 p, .s8d2 .s8d2d1 .txt1 p{
+        font-size: 16px;
+    }
+    
+    .s8 .s8d1 .s8d1d1 .txt2 h1, .s8d2 .s8d2d1 .txt2 h1{
+        font-size: 19px;
+    }
+    
+    .s8 .s8d1 .s8d1d1 .txt2 h3, .s8d2 .s8d2d1 .txt2 h3{
+        font-size: 17px;
+    }
+
+    .s8 .s8d1 .s8d1d2 img, .s8d2 .s8d2d2 img{
+        width: 120px;
+        height: 120px;
+    }
+
+    footer .f1 .box1 .txt1 h1{
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    footer .f1 .box1 .txt2 p{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    footer .f1 .box2 .txt1 h1{
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    footer .f1 .box2 .txt2 p{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    footer .f1 .box3 .txt1 h1{
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    footer .f1 .box3 .txt2 a{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    footer .f2 h1{
+        font-size: 12px;
+    }
+
+    footer .f2 h2{
+        font-size: 10px;
+    }
+
+    footer .f1 .box2 .txt3{
+        width: 50%;
+    }
+
+}
